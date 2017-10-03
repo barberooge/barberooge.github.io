@@ -17,6 +17,7 @@ h3 {
 
 .subtitle {
     font-family: 'Noto Serif', serif;
+    opacity: inherit;
 }
 
 p,
