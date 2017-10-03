@@ -29,3 +29,15 @@ blockquote {
 p {
     text-align: justify;
 }
+
+a {
+    color: blueviolet;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+a:visited {
+    color: deeppink;
+}
