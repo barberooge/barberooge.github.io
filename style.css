@@ -42,10 +42,13 @@ p {
 
 p img {
     max-width: 275px;
+    width: 35%;
+    min-width: 250px;
 }
 
 #mysearch {
-    width: 500px;
+    width: 35%;
+    min-width: 250px;
     height: 35px;
     border: white 1px solid;
     box-shadow: 0.5px 0.5px 3px;
