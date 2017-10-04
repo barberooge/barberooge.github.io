@@ -28,7 +28,9 @@ nav span {
     vertical-align: middle;
 }
 
-#Connect {
+#Connect,
+#Connect:hover,
+#Connect:visited {
     display: inline;
     padding: 10px 20px;
     margin: 2px;
