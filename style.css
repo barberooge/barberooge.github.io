@@ -3,9 +3,8 @@ html {
 }
 
 * {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 0.975em;
-    color: #575757;
 }
 
 #first-div {
@@ -30,8 +29,21 @@ nav span {
 }
 
 #Connect {
-    max-height: 30px;
-    align-content: center;
+    display: inline;
+    padding: 10px 20px;
+    margin: 2px;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #5264EE;
+}
+
+#ConnectLink,
+#ConnectLink:hover,
+#ConnectLink:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 br {
@@ -65,37 +77,47 @@ p img {
 }
 
 #Search,
-#Lucky {
+#Lucky,
+#Search:visited,
+#Lucky:visited {
     display: inline;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 2px;
     width: 100px;
     height: 35px;
+    border-radius: 3px;
     background-color: #F4F4F4;
+}
+
+#Search:hover,
+#Lucky:hover {
+    display: inline;
+    padding: 10px 20px;
+    margin: 2px;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #EBEBEB;
+}
+
+.SearchLink,
+.SearchLink:visited {
+    text-decoration: none;
+    font-weight: bold;
     color: #757575;
-    text-decoration: none;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    color: black;
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-#SearchLuck :hover {
+.SearchLink:hover {
     color: #575757;
     text-decoration: none;
-    border-width: 1px;
-    border-color: #575757;
+    font-weight: bold;
+}
+
+.Link,
+.Link:hover,
+.Link:visited {
+    color: black;
+    text-decoration: none;
 }
 
 footer {
