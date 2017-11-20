@@ -11,7 +11,8 @@
 </head>
 
 <body>
-<div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-content">        
+        
         <div class="uk-section-primary uk-preserve-color">
 
         <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
@@ -24,8 +25,10 @@
                             <li class="uk-active"><a href="/">CODV</a></li>
                             <li><a href="mailto:mathieumonnin@me.com">Contact</a></li>
                             <li><a uk-toggle="target: #offcanvas-flip">About</a>
+
+                                    <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
                                     <div class="uk-offcanvas-bar">
-                                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                    <button class="uk-offcanvas-close" type="button" uk-close></button>
 
                                         <h3>Mathieu Mo</h3>
 
