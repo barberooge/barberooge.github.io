@@ -17,8 +17,9 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   /* 3 */
-  background: #fff;
+  background: #1E87F0;
   color: #666;
+  min-height: 100%;
 }
 /*
  * Removes default margin.
