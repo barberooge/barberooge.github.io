@@ -12,6 +12,7 @@ h6 {
 }
 
 .coop-header {
+    background-color: #2C3E52;
     background-image: url(header.jpeg);
     background-size: cover;
     background-position: center;
