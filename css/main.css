@@ -10,7 +10,7 @@
     width: 100vw;
 }
 
-@media (max-height: 759px) {
+@media (max-height: 760px) {
     #footer {
         position: relative;
     }
