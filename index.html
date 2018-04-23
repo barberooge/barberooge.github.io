@@ -48,13 +48,25 @@
                         <div uk-navbar>
                             <ul class="uk-navbar-nav">
                                 <li><a uk-toggle="target: #offcanvas-overlay" uk-icon="icon: menu"></a>
+                                    <div class="uk-offcanvas-content">
+                                        <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+                                            <div class="uk-offcanvas-bar">
+                                                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                                <h3 class="uk-text-left">Sites web:</h3>
+                                                <a href="/CoopJuris" class="uk-align-center uk-text-left">Coop Juris <span uk-icon="chevron-right"></span></a>
+                                                <p class="uk-text-small">Application web à destination des coopératives dans le domaine des énergies renouvelables.</p>
+                                                <a href="https://rocky-journey-87509.herokuapp.com/" class="uk-align-center uk-text-left">Codex Bezae <span uk-icon="chevron-right"></span></a>
+                                                <p class="uk-text-small">Jeu en ligne sur le modèle d'un jeu de piste se déroulant dans la ville de Lyon.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
             </div>
-            <div class="uk-section uk-light main-content">
+            <div class="uk-section uk-light main-content uk-margin-bottom">
                 <div class="uk-container">
                     <h1 class="uk-heading-line uk-text-center uk-text-middle">｢｣</h1>
                     <h1 class="uk-text-lead uk-text-center uk-text-middle"><span>Je suis Mathieu,</span><br>Développeur Web Front-End</h1>
@@ -62,16 +74,16 @@
                     <a href="mailto:mathieu@codv.me" class="uk-link-reset"><button class="uk-button uk-button-default  uk-align-center uk-text-bold">Contact</button></a>
                 </div>
             </div>
-                <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-position-bottom uk-position-absolute uk-light uk-secondary">
-                    <div class="uk-navbar-right">
-                        <div uk-navbar>
-                            <ul class="uk-navbar-nav">
-                                <li><a href="https://twitter.com/barberooge" uk-icon="icon: twitter" target="_blank" class="uk-padding-small"></a></li>
-                                <li><a href="https://github.com/barberooge" uk-icon="icon: github" target="_blank" class="uk-padding-small"></a></li>
-                            </ul>
-                        </div>
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-position-bottom uk-position-absolute uk-light uk-secondary">
+                <div class="uk-navbar-right">
+                    <div uk-navbar>
+                        <ul class="uk-navbar-nav">
+                            <li><a href="https://twitter.com/barberooge" uk-icon="icon: twitter" target="_blank" class="uk-padding-small"></a></li>
+                            <li><a href="https://github.com/barberooge" uk-icon="icon: github" target="_blank" class="uk-padding-small"></a></li>
+                        </ul>
                     </div>
-                </nav>
+                </div>
+            </nav>
         </div>
     </div>
 </body>
