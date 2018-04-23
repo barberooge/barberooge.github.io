@@ -1,9 +1,11 @@
-.main-content {
-	top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 500px;
-    position: fixed;
-    margin: auto;
+@media (min-height: 800px) {
+    .main-content {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 450px;
+        position: fixed;
+        margin: auto;
+    }
 }
