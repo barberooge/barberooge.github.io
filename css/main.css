@@ -11,7 +11,7 @@
 }
 
 @media (max-height: 759px) {
-    .footer {
+    #footer {
         position: relative;
     }
 }
@@ -27,7 +27,7 @@
         position: absolute;
         margin: auto;
     }
-    .footer {
+    #footer {
         position: absolute;
     }
 }
