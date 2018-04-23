@@ -7,7 +7,7 @@
 }
 
 .main-content {
-    width: 100%;
+    width: 100vw;
 }
 
 @media (max-height: 759px) {
