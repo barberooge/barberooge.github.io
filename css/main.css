@@ -1,3 +1,8 @@
+.avatar {
+    width: 50%;
+    border-radius: 100%;
+}
+
 @media (min-height: 760px) {
     .main-content {
         top: 0;
