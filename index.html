@@ -48,18 +48,6 @@
                         <div uk-navbar>
                             <ul class="uk-navbar-nav">
                                 <li><a uk-toggle="target: #offcanvas-overlay" uk-icon="icon: menu"></a>
-                                    <div class="uk-offcanvas-content">
-                                        <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
-                                            <div class="uk-offcanvas-bar">
-                                                <button class="uk-offcanvas-close" type="button" uk-close></button>
-                                                <h3 class="uk-text-left">Sites web:</h3>
-                                                <a href="/CoopJuris" class="uk-align-center uk-text-left">Coop Juris <span uk-icon="chevron-right"></span></a>
-                                                <p class="uk-text-small">Application web à destination des coopératives dans le domaine des énergies renouvelables.</p>
-                                                <a href="https://rocky-journey-87509.herokuapp.com/" class="uk-align-center uk-text-left">Codex Bezae <span uk-icon="chevron-right"></span></a>
-                                                <p class="uk-text-small">Jeu en ligne sur le modèle d'un jeu de piste se déroulant dans la ville de Lyon.</p>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -72,10 +60,20 @@
                     <h1 class="uk-text-lead uk-text-center uk-text-middle"><span>Je suis Mathieu,</span><br>Développeur Web Front-End</h1>
                     <br>
                     <a href="mailto:mathieu@codv.me" class="uk-link-reset"><button class="uk-button uk-button-default  uk-align-center uk-text-bold">Contact</button></a>
-                    <p class="uk-text-center uk-text-middle uk-text-lead"><a href="https://twitter.com/barberooge" uk-icon="icon: twitter" target="_blank" class="uk-padding-small"></a>
-                    <a href="https://github.com/barberooge" uk-icon="icon: github" target="_blank" class="uk-padding-small"></a></p>
                     <br>
                 </div>
+            </div>
+            <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; bottom: 200">
+                <nav class="uk-navbar uk-navbar-container uk-position-bottom">
+                    <div class="uk-navbar-right">
+                        <div uk-navbar>
+                            <ul class="uk-navbar-nav">
+                                <li><a href="https://twitter.com/barberooge" uk-icon="icon: twitter" target="_blank" class="uk-padding-small"></a></li>
+                                <li><a href="https://github.com/barberooge" uk-icon="icon: github" target="_blank" class="uk-padding-small"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
     </div>
