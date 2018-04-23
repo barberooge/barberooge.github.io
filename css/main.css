@@ -6,6 +6,17 @@
     border-radius: 100%;
 }
 
+.main-content {
+    width: 100%;
+}
+
+@media (max-height: 760) {
+    .footer {
+        position: relative;
+    }
+}
+
+
 @media (min-height: 760px) {
     .main-content {
         top: 0;
@@ -15,5 +26,8 @@
         height: 450px;
         position: absolute;
         margin: auto;
+    }
+    .footer {
+        position: absolute;
     }
 }
