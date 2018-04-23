@@ -1,6 +1,10 @@
-.avatar {
+#avatar {
+    padding-top: 15%;
+    padding-left: 5%;
     width: 50%;
-    height: 100%;
+}
+
+.avatar {
     border-radius: 100%;
 }
 
