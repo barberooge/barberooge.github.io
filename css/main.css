@@ -6,14 +6,6 @@
     border-radius: 100%;
 }
 
-.main-content {
-	flex-wrap: nowrap;
-}
-
-#footer {
-    width: 100vw;
-}
-
 @media (min-height: 760px) {
     .main-content {
         height: 450px;
