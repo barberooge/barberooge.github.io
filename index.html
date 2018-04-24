@@ -13,80 +13,77 @@
 </head>
 
 <body>
-    <div class="uk-offcanvas-content">
-        <div class="uk-preserve-color">
-            <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
-                <nav class="uk-navbar uk-navbar-container">
-                    <div class="uk-navbar-left">
-                        <div uk-navbar>
-                            <ul class="uk-navbar-nav">
-                                <li class="uk-active"><a href="/"><span uk-icon="icon: code"></span></a></li>
-                                <li><a uk-toggle="target: #offcanvas-flip">About</a>
-                                    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
-                                        <div class="uk-offcanvas-bar uk-text-justify">
-                                            <button class="uk-offcanvas-close" type="button" uk-close></button>
-                                            <div id="avatar"><img src="img/proav.jpg" class="avatar"></div>
-                                            <h3>Mathieu Monnin</h3>
-                                            <hr class="uk-divider-small">
-                                            <p>Développeur Web sur Lyon, je me suis formé au code via le projet <a href="http://www.thehackingproject.org/" target="_blank">The Hacking Project</a> qui permet à toute personne d'apprendre à coder de façon gratuite et n'importe où dans le monde.</p>
-                                            <p>Après 3 mois de formation dont 2 semaines consacrées à un projet final, je maitrise:</p>
-                                            <ul>
-                                                <li>HTML</li>
-                                                <li>CSS</li>
-                                                <li>JavaScript</li>
-                                                <li>jQuery</li>
-                                                <li>Ruby</li>
-                                                <li>Ruby on Rails</li>
-                                            </ul>
-                                        </div>
+    <div class="uk-offcanvas-content uk-preserve-color">
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+            <nav class="uk-navbar uk-navbar-container">
+                <div class="uk-navbar-left">
+                    <div uk-navbar>
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="/"><span uk-icon="icon: code"></span></a></li>
+                            <li><a uk-toggle="target: #offcanvas-flip">About</a>
+                                <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                                    <div class="uk-offcanvas-bar uk-text-justify">
+                                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                        <div id="avatar"><img src="img/proav.jpg" class="avatar"></div>
+                                        <h3>Mathieu Monnin</h3>
+                                        <hr class="uk-divider-small">
+                                        <p>Développeur Web sur Lyon, je me suis formé au code via le projet <a href="http://www.thehackingproject.org/" target="_blank">The Hacking Project</a> qui permet à toute personne d'apprendre à coder de façon gratuite et n'importe où dans le monde.</p>
+                                        <p>Après 3 mois de formation dont 2 semaines consacrées à un projet final, je maitrise:</p>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>Ruby</li>
+                                            <li>Ruby on Rails</li>
+                                        </ul>
                                     </div>
-                                </li>
-                                <li><a href="mailto:mathieu@codv.me" uk-icon="icon: mail"></a></li>
-                            </ul>
-                        </div>
+                                </div>
+                            </li>
+                            <li><a href="mailto:mathieu@codv.me" uk-icon="icon: mail"></a></li>
+                        </ul>
                     </div>
-                    <div class="uk-navbar-right">
-                        <div uk-navbar>
-                            <ul class="uk-navbar-nav">
-                                <li><a uk-toggle="target: #offcanvas-overlay" uk-icon="icon: menu"></a>
-                                    <div class="uk-offcanvas-content">
-                                        <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
-                                            <div class="uk-offcanvas-bar">
-                                                <button class="uk-offcanvas-close" type="button" uk-close></button>
-                                                <h3 class="uk-text-left">Sites web:</h3>
-                                                <a href="/CoopJuris" class="uk-align-center uk-text-left">Coop Juris <span uk-icon="chevron-right"></span></a>
-                                                <p class="uk-text-small">Application web à destination des coopératives dans le domaine des énergies renouvelables.</p>
-                                                <a href="https://rocky-journey-87509.herokuapp.com/" class="uk-align-center uk-text-left">Codex Bezae <span uk-icon="chevron-right"></span></a>
-                                                <p class="uk-text-small">Jeu en ligne sur le modèle d'un jeu de piste se déroulant dans la ville de Lyon.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <div class="uk-section uk-light main-content">
-                <div class="uk-container">
-                    <h1 class="uk-heading-line uk-text-center uk-text-middle">｢｣</h1>
-                    <h1 class="uk-text-lead uk-text-center uk-text-middle"><span>Je suis Mathieu,</span><br>Développeur Web Front-End</h1>
-                    <br>
-                    <a href="mailto:mathieu@codv.me" class="uk-link-reset"><button class="uk-button uk-button-default uk-align-center uk-text-bold">Contact</button></a>
-                    <nav id="footer" class="uk-navbar uk-navbar-container uk-navbar-transparent uk-position-bottom uk-light">
+                </div>
                 <div class="uk-navbar-right">
                     <div uk-navbar>
                         <ul class="uk-navbar-nav">
-                            <li><a href="https://twitter.com/barberooge" uk-icon="icon: twitter" target="_blank" class="uk-padding-small"></a></li>
-                            <li><a href="https://github.com/barberooge" uk-icon="icon: github" target="_blank" class="uk-padding-small"></a></li>
+                            <li><a uk-toggle="target: #offcanvas-overlay" uk-icon="icon: menu"></a>
+                                <div class="uk-offcanvas-content">
+                                    <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+                                        <div class="uk-offcanvas-bar">
+                                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                            <h3 class="uk-text-left">Sites web:</h3>
+                                            <a href="/CoopJuris" class="uk-align-center uk-text-left">Coop Juris <span uk-icon="chevron-right"></span></a>
+                                            <p class="uk-text-small">Application web à destination des coopératives dans le domaine des énergies renouvelables.</p>
+                                            <a href="https://rocky-journey-87509.herokuapp.com/" class="uk-align-center uk-text-left">Codex Bezae <span uk-icon="chevron-right"></span></a>
+                                            <p class="uk-text-small">Jeu en ligne sur le modèle d'un jeu de piste se déroulant dans la ville de Lyon.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+        </div>
+        <div class="uk-section uk-light main-content">
+            <div class="uk-container">
+                <h1 class="uk-heading-line uk-text-center uk-text-middle">｢｣</h1>
+                <h1 class="uk-text-lead uk-text-center uk-text-middle"><span>Je suis Mathieu,</span><br>Développeur Web Front-End</h1>
+                <br>
+                <a href="mailto:mathieu@codv.me" class="uk-link-reset"><button class="uk-button uk-button-default uk-align-center uk-text-bold">Contact</button></a>
+            </div>
+        </div>
+        <nav id="footer" class="uk-navbar uk-navbar-container uk-navbar-transparent uk-position-bottom uk-light">
+            <div class="uk-navbar-right">
+                <div uk-navbar>
+                    <ul class="uk-navbar-nav">
+                        <li><a href="https://twitter.com/barberooge" uk-icon="icon: twitter" target="_blank" class="uk-padding-small"></a></li>
+                        <li><a href="https://github.com/barberooge" uk-icon="icon: github" target="_blank" class="uk-padding-small"></a></li>
+                    </ul>
                 </div>
             </div>
-
-        </div>
+        </nav>
     </div>
 </body>
 
